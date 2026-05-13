@@ -31,7 +31,6 @@ body {
     font-weight: 500;
     line-height: 18px;
     color: $color-text-primary;
-    text-align: justify;
 
     margin-bottom: 4px;
   }
@@ -62,7 +61,7 @@ body {
   &__price {
     display: flex;
     justify-content: space-between;
-    margin: 24px 0;
+    margin: 24px 0 16px;
 
     &-label {
       font-size: 12px;
