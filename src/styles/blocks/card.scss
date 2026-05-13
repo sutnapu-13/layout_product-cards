@@ -8,7 +8,6 @@ body {
 .card {
   box-sizing: border-box;
   width: $card-width;
-  height: $card-height;
   background-color: $color-background;
 
   border: 1px solid $color-border;
@@ -42,6 +41,7 @@ body {
     line-height: 14px;
     color: $color-text-secondary;
 
+    margin-top: 0;
     margin-bottom: 16px;
   }
 
